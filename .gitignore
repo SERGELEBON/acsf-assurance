@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches/
+!.yarn/plugins/
+!.yarn/releases/
+!.yarn/versions/
+
+# Next.js and build output
+.next/
+/out/
+/build/
+/dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment and private keys
+.env*
+!.env.example
+!.env.sample
+*.pem
+*.key
+.z-ai-config
+.npmrc.local
+
+# Local databases (keep Prisma schema and migrations)
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+
+# Logs, caches and test output
+*.log
+*.log.*
+*.out.log
+.cache/
+.eslintcache
+/coverage/
+/playwright-report/
+/test-results/
+
+# Temporary files and generated artifacts
+/tmp/
+/temp/
+/tool-results/
+/upload/
+/download/*
+!/download/README.md
+.zscripts/
+.claude/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Local hosting state
+.vercel/
+.wrangler/
+.dev.vars
+.dev.vars.*
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Keep source, public assets, Prisma migrations and lockfiles tracked.
